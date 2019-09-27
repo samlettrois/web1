@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>JavaScript</h1>
+
+
+    <script>
+      var message1 = '내 나이는 ';
+      var age = 7;
+
+      console.log(message1 + age + '살이야.');
+      console.log(typeof message1);
+
+      var a = [1, 2, '비', 4, 5];
+      console.log(a);
+
+      a.push('하하하');
+      console.log(a);
+
+      var movies = ['극한직업', '어벤저스', '오펀', '강시', '나홀로집에', '내부자들'];
+
+      for(var i = 0; i<movies.length; ++i){
+        console.log(movies[i]);
+      }
+      // 마지막 값을 알고싶을때.
+      console.log(movies[movies.length-1]);
+
+      function 인사(이름){
+        console.log('안녕? 나는 ' + 이름 +'이야.');
+      }
+      인사('다산');
+
+      var person = {};
+      person.name = '정약용';
+      person.age = 12;
+      person.introduce = function () {
+        console.log("나의 이름은 " + person.name +"이야.");
+      }
+
+      person.introduce();
+
+
+    </script>
+  </body>
+</html>
