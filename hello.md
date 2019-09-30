@@ -56,3 +56,9 @@
 - 역시 커밋은 없어지지 않는다.
 - 장점: 가장 정석적
 - 단점: 충돌이 일어날 수 있다.
+- SourceTree 에서는 커밋 선택 - 우클릭 - 커밋 되돌리기
+
+## 전체 강좌 목록 보기
+
+- https://nextstep.camp/courses/-L6-ES5-WFWp9mKmOhE-
+
